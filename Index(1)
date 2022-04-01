@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Manish.coding</title>
+				<style>
+								.Background {
+				background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo09uvV7Vxr6YJ0cADP-nOlKfoaeKvnJHodiNgkJgk0F-_9nZx19IxMIpoAZaao3i8NWw&usqp=CAU);
+				background-repeat:no-repeat;
+				background-size:cover;
+				border:0;		
+				margin:-8px -10px;		
+}
+img {
+				height:50px;
+				width:50px;
+				border-radius:50%;
+				
+}				
+.navbar {
+				height:50px;
+				width:96%;
+				border:0;
+				position:relative;
+				display:flex;
+}
+ul {
+				list-style:none;
+				display:flex;
+				text-decoration:none;
+}
+li {
+				margin:0px 20px;
+				font-size:20px;
+				font-family: fantasy;
+}
+a {
+				text-decoration:none;
+				color:black;
+}
+li:hover {
+				font-size:23px;
+				font-family:bold;
+				text-decoration-line: underline;
+    text-underline-offset: 12px;
+}
+.bar {
+				margin-left:37%;
+}
+h1 {
+				margin-left:70px;
+				margin-top:90px;
+				font-size:50px;
+				animation-name:slide;
+				animation-duration:1s;
+}
+@keyframes slide {
+				0%{margin-left:400px;
+				   margin-top:90px;}
+				100%{margin-left:70px;
+				   margin-top:90px;}
+}
+.para {
+				margin-left:70px;
+				margin-top:0px;
+				font-size:15px;
+				animation-name:slide1;
+				animation-duration:2s;
+}
+@keyframes slide1 {
+				0%{margin-left:250px;
+				   margin-top:0px;}
+				100%{margin-left:70px;
+				   margin-top:0px;}
+}
+button {
+				height:40px;
+				width:100px;
+				border-radius:20px;
+				border:0;
+				font-size:15px;
+				color:white;
+				background-image:linear-gradient(90deg, blue, pink);
+}
+.join {
+				margin-left:37%;
+				margin-top:60px;
+}
+.trail {
+				margin-left:3%;
+				margin-top:0px;
+	background-image:linear-gradient(90deg, blue, pink);
+}
+
+footer {
+				background-color:#000000;
+				color:white;
+				height:60px;
+				width:102.1%;
+				margin:-16px -10px;		
+}
+.footer {
+				font-family:bold;
+				color:white;
+				text-align:center;
+				padding:20px;
+				text-occupy:5px;
+				font-size:15px;
+}
+
+				</style>
+</head>
+<body>
+				<fieldset class="Background">
+				<fieldset class="navbar">
+								
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTCOIBJfMZoZ5cu_cFNvJhnvKHOdCdBEn-fw&usqp=CAU">
+								<ul class="bar">
+	<li><a href="file:///storage/emulated/0/index.html">Home</a></li>
+	<li><a href="file:///storage/emulated/0/Cource.html">Cource</a></li>
+				<li>Premium</li>
+				<li>About</li>
+				<li>Login</li>
+								</ul>
+				</fieldset>
+				<h1>MANISH.coding</h1>
+				<p class="para">Join this cource to know how code learn, output these basic think's.<br>
+				 You can learn free of cost you don't have pay any charges so <br>click on the below Join button and enjoy with me</p>
+				<pre><button class="join">Join Cource</button><button class="trail"> Free Trail</button></pre> 
+				
+				</fieldset>
+				
+				<footer>
+					<p class="footer">Design By MANISH.coding © 2022 </p>
+				</footer>
+			
+</body>
+</html>
